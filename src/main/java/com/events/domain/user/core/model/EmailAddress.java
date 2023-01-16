@@ -3,12 +3,14 @@ package com.events.domain.user.core.model;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @Embeddable
 @EqualsAndHashCode
+@ToString
 public class EmailAddress {
 
     @Column(name="email")
@@ -25,4 +27,6 @@ public class EmailAddress {
     }
 
     private EmailAddress(){}
+
+
 }

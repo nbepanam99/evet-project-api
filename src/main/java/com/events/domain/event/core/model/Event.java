@@ -1,4 +1,4 @@
-package com.events.domain.model;
+package com.events.domain.event.core.model;
 
 import java.time.LocalDateTime;
 

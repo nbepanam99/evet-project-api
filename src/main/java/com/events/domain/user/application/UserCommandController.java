@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class UserCommandController {
 
-    private final AddNewUser addNewUser;
+   private final AddNewUser addNewUser;
 
     @PostMapping("")
     public ResponseEntity<String> addNewUser(@RequestBody AddUserCommand addUserCommand){
         addNewUser.handle(addUserCommand);
-        return new ResponseEntity<>("New user was added to library", HttpStatus.CREATED);
+        return new ResponseEntity<>("New user was added to application", HttpStatus.CREATED);
     }
 }

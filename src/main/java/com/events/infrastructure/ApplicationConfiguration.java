@@ -1,4 +1,4 @@
-package com.events.infrastucture;
+package com.events.infrastructure;
 
 import com.events.services.CurrencyTools;
 import org.springframework.boot.SpringBootConfiguration;

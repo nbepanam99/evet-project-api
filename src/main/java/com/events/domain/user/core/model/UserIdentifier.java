@@ -1,14 +1,16 @@
 package com.events.domain.user.core.model;
 
+import java.util.UUID;
+
 public class UserIdentifier {
 
-    private final Long id;
+    private final UUID id;
 
-    public UserIdentifier(Long id) {
+    public UserIdentifier(UUID id) {
         this.id = id;
     }
 
-    public Long getAsLong(){
+    public UUID getAsLong(){
         return id;
     }
 }

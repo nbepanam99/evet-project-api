@@ -1,4 +1,4 @@
-package com.events.domain.model;
+package com.events.domain.event.core.model;
 
 public interface EventProducer {
 
